@@ -1,0 +1,3 @@
+# Optional: only needed for the MiniCheck trained-checker configuration (checker_verify).
+# The default MiniCheck model (roberta-large) is downloaded on first use (~1.4 GB).
+minicheck @ git+https://github.com/Liyan06/MiniCheck.git@main

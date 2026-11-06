@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+data/
+data_*/
+ckpts/
+eval/squad/dev-v2.0.json
+eval/squad/docs/
+eval/results_smoke/
+run_log*.txt
+run_err*.txt

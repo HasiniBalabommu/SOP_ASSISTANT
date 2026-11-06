@@ -1,0 +1,24 @@
+{
+  "llm_model": "llama3.2:1b",
+  "llm_backend": "Ollama (local)",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "retrieval_mode_default": "hybrid (BM25 + dense, fused via RRF)",
+  "rrf_k_constant": 60,
+  "min_retrieval_score_threshold": 0.005,
+  "chunk_size_words": 300,
+  "chunk_overlap_words": 50,
+  "generation_temperature": 0.2,
+  "verification_temperature": 0.0,
+  "top_k_default": 5,
+  "python_version": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "package_versions": {
+    "ollama": "ollama==0.3.0",
+    "chromadb": "chromadb==0.5.5",
+    "rank-bm25": "rank-bm25==0.2.2",
+    "sentence-transformers": "sentence-transformers==3.0.1",
+    "networkx": "networkx==3.3",
+    "fastapi": "fastapi==0.112.0"
+  }
+}

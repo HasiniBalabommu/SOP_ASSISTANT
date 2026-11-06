@@ -1,0 +1,255 @@
+{
+ "_comment": "Plan for this laptop: CPU only (the MX570 GPU crashes Ollama), installed models only. Option A = 1B + 3B jobs (about 22 h). 8B jobs (llama3:latest = Llama 3 8B) are disabled; enable them for Option B (about 3 days). squad_g3b needs the SQuAD 2.0 dev file (~4 MB download).",
+ "questions": "eval/questions_v2.json",
+ "common_env": {
+  "SOP_DATA_DIR": "data_c100",
+  "SOP_CHUNK_SIZE": "100",
+  "SOP_CHUNK_OVERLAP": "20",
+  "SOP_BM25_STRIP_PUNCTUATION": "1",
+  "SOP_NUM_CTX": "4096",
+  "SOP_NUM_PREDICT": "512",
+  "SOP_NUM_GPU": "0",
+  "HF_HUB_OFFLINE": "1",
+  "PYTHONIOENCODING": "utf-8"
+ },
+ "jobs": [
+  {
+   "name": "g1b_core",
+   "enabled": true,
+   "generator": "llama3.2:1b",
+   "verifier": null,
+   "configs": [
+    "no_retrieval",
+    "no_verify",
+    "self_check",
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g3b_core",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "no_retrieval",
+    "no_verify",
+    "self_check",
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g3b_novel",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "gate_no_verify",
+    "gate_full",
+    "suff_full",
+    "claim_verify"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g3b_poison",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "no_verify",
+    "full",
+    "gate_full",
+    "suff_full",
+    "claim_verify"
+   ],
+   "repeats": 3,
+   "env": {
+    "SOP_DATA_DIR": "data_c100_poison"
+   },
+   "index_sources": [
+    "data/incoming",
+    "eval/poison"
+   ],
+   "questions": "eval/questions_poison.json"
+  },
+  {
+   "name": "squad_g3b",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "no_verify",
+    "full",
+    "gate_full",
+    "suff_full"
+   ],
+   "repeats": 1,
+   "env": {
+    "SOP_DATA_DIR": "data_squad_c100",
+    "HF_HUB_OFFLINE": "1"
+   },
+   "index_sources": [
+    "eval/squad/docs"
+   ],
+   "questions": "eval/squad/questions_squad.json",
+   "prepare_module": "eval.make_squad_subset"
+  },
+  {
+   "name": "g1b_verify8b",
+   "enabled": false,
+   "generator": "llama3.2:1b",
+   "verifier": "llama3:latest",
+   "configs": [
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g3b_verify8b",
+   "enabled": false,
+   "generator": "llama3.2:3b",
+   "verifier": "llama3:latest",
+   "configs": [
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g8b_core",
+   "enabled": false,
+   "generator": "llama3:latest",
+   "verifier": null,
+   "configs": [
+    "no_retrieval",
+    "no_verify",
+    "self_check",
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g8b_ablations",
+   "enabled": false,
+   "generator": "llama3:latest",
+   "verifier": null,
+   "configs": [
+    "bm25",
+    "dense",
+    "no_kg"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "x1b_verify3b",
+   "enabled": true,
+   "generator": "llama3.2:1b",
+   "verifier": "llama3.2:3b",
+   "configs": [
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "x3b_verify1b",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": "llama3.2:1b",
+   "configs": [
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "squad_g3b_base",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "no_retrieval",
+    "self_check"
+   ],
+   "repeats": 1,
+   "env": {
+    "SOP_DATA_DIR": "data_squad_c100",
+    "HF_HUB_OFFLINE": "1"
+   },
+   "index_sources": [
+    "eval/squad/docs"
+   ],
+   "questions": "eval/squad/questions_squad.json"
+  },
+  {
+   "name": "squad_g1b",
+   "enabled": true,
+   "generator": "llama3.2:1b",
+   "verifier": null,
+   "configs": [
+    "no_verify",
+    "full"
+   ],
+   "repeats": 1,
+   "env": {
+    "SOP_DATA_DIR": "data_squad_c100",
+    "HF_HUB_OFFLINE": "1"
+   },
+   "index_sources": [
+    "eval/squad/docs"
+   ],
+   "questions": "eval/squad/questions_squad.json"
+  },
+  {
+   "name": "g1b_legacy_shared",
+   "enabled": true,
+   "generator": "llama3.2:1b",
+   "verifier": null,
+   "configs": [
+    "no_verify",
+    "full"
+   ],
+   "repeats": 1,
+   "legacy_shared_session": true
+  },
+  {
+   "name": "g1b_q4_core",
+   "enabled": true,
+   "generator": "llama3.2:1b-instruct-q4_K_M",
+   "verifier": null,
+   "configs": [
+    "no_verify",
+    "full"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "g3b_minicheck",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "checker_verify"
+   ],
+   "repeats": 3
+  },
+  {
+   "name": "squad_g3b_minicheck",
+   "enabled": true,
+   "generator": "llama3.2:3b",
+   "verifier": null,
+   "configs": [
+    "checker_verify"
+   ],
+   "repeats": 1,
+   "env": {
+    "SOP_DATA_DIR": "data_squad_c100",
+    "HF_HUB_OFFLINE": "1"
+   },
+   "index_sources": [
+    "eval/squad/docs"
+   ],
+   "questions": "eval/squad/questions_squad.json"
+  }
+ ],
+ "_comment_review": "Review jobs added 2026-11-05: cross-size verifier pairings and SQuAD baselines."
+}

@@ -1,0 +1,23 @@
+GENERATOR B — SERVICE BULLETIN SB-117
+Applies to: GB-500 Standby Diesel Generator
+Document ID: GEN-B-SB-117
+
+After the controller firmware update to version 4.2, the following changes
+apply to Generator B. Technicians should follow this bulletin where it differs
+from earlier documentation.
+
+1. Overheating alarm
+The E205 overheating alarm now triggers when the coolant temperature reaches
+92°C. Shut down the generator and allow it to cool before inspection.
+
+2. New fault code E999 — Fuel Contamination
+Fault code E999 indicates water or debris in the fuel supply. Drain the fuel
+water separator, replace the primary fuel filter, and restart the unit only
+after a ten-minute idle test without load.
+
+3. Fuel system
+The fuel tank capacity of the GB-500 is 1,200 L. Refuel when the level falls
+below 25 percent.
+
+4. Engine oil
+Use SAE 15W-40 engine oil only. Other viscosity grades are not approved.

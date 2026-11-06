@@ -1,0 +1,1553 @@
+[
+  {
+    "id": "s1",
+    "query": "What are the three sources of European Union law?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "primary law, secondary law and supplementary law"
+    ],
+    "answers": [
+      "primary law, secondary law and supplementary law"
+    ],
+    "squad_id": "5725c28a271a42140099d14f"
+  },
+  {
+    "id": "s2",
+    "query": "What other terminology is considered much more destructive?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "rebellion"
+    ],
+    "answers": [
+      "civil rebellion",
+      "civil rebellion are justified by appeal to constitutional defects, rebellion is much more",
+      "rebellion"
+    ],
+    "squad_id": "57281c594b864d19001644a4"
+  },
+  {
+    "id": "s3",
+    "query": "When B cells and T cells begin to replicate, what do some of their offspring cells become?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "long-lived memory cells"
+    ],
+    "answers": [
+      "long-lived memory cells"
+    ],
+    "squad_id": "5729f799af94a219006aa707"
+  },
+  {
+    "id": "s4",
+    "query": "What percentage of total financial aid for undergraduates from Harvard was in the form of grants?",
+    "category": "squad",
+    "expected_sources": [
+      "Harvard_University.txt"
+    ],
+    "expected_keywords": [
+      "88%"
+    ],
+    "answers": [
+      "88%"
+    ],
+    "squad_id": "5727d6154b864d1900163e38"
+  },
+  {
+    "id": "s5",
+    "query": "How are decisions made on behave of the EU made?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "simple majority vote"
+    ],
+    "answers": [
+      "a simple majority",
+      "a simple majority vote",
+      "simple majority vote"
+    ],
+    "squad_id": "572691545951b619008f76e3"
+  },
+  {
+    "id": "s6",
+    "query": "What did Houghton say is necessary for any changes to the SPM?",
+    "category": "squad",
+    "expected_sources": [
+      "Intergovernmental_Panel_on_Climate_Change.txt"
+    ],
+    "expected_keywords": [
+      "must be supported by scientific evidence"
+    ],
+    "answers": [
+      "must be supported by scientific evidence",
+      "scientific evidence"
+    ],
+    "squad_id": "57293f353f37b3190047819f"
+  },
+  {
+    "id": "s7",
+    "query": "Who is on the IPCC Panel?",
+    "category": "squad",
+    "expected_sources": [
+      "Intergovernmental_Panel_on_Climate_Change.txt"
+    ],
+    "expected_keywords": [
+      "representatives appointed by governments and organizations"
+    ],
+    "answers": [
+      "representatives appointed by governments and organizations"
+    ],
+    "squad_id": "57293c246aef051400154bb8"
+  },
+  {
+    "id": "s8",
+    "query": "What powers does the Court of Justice of the European Union have in regards to treaties?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "The Court of Justice of the European Union can interpret the Treaties"
+    ],
+    "answers": [
+      "The Court of Justice of the European Union can interpret the Treaties",
+      "can interpret the Treaties, but it cannot rule on their validity"
+    ],
+    "squad_id": "5725ca4389a1e219009abeb6"
+  },
+  {
+    "id": "s9",
+    "query": "What are examples of differentiated effector cells that peak during wake periods?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "cytotoxic natural killer cells and CTLs (cytotoxic T lymphocytes)"
+    ],
+    "answers": [
+      "cytotoxic natural killer cells and CTLs",
+      "cytotoxic natural killer cells and CTLs (cytotoxic T lymphocytes)"
+    ],
+    "squad_id": "572a04d51d046914007796cd"
+  },
+  {
+    "id": "s10",
+    "query": "The censuring of the Santer Commission  resulted in which main case?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "Commission v Edith Cresson"
+    ],
+    "answers": [
+      "Commission v Edith Cresson"
+    ],
+    "squad_id": "5726926a5951b619008f770a"
+  },
+  {
+    "id": "s11",
+    "query": "What is the primary goal of pleading not guilty when arrested for Civil Disobedience?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "acquittal and avoid imprisonment"
+    ],
+    "answers": [
+      "acquittal and avoid imprisonment",
+      "to use the proceedings as a forum",
+      "to win an acquittal and avoid imprisonment or a fine",
+      "win an acquittal",
+      "win an acquittal and avoid imprisonment or a fine"
+    ],
+    "squad_id": "5728facd4b864d1900165170"
+  },
+  {
+    "id": "s12",
+    "query": "How many coordinating lead authors does an IPCC report chapter have?",
+    "category": "squad",
+    "expected_sources": [
+      "Intergovernmental_Panel_on_Climate_Change.txt"
+    ],
+    "expected_keywords": [
+      "two"
+    ],
+    "answers": [
+      "two"
+    ],
+    "squad_id": "57293d6d1d046914007791b7"
+  },
+  {
+    "id": "s13",
+    "query": "What are the main sources of primary law?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "the Treaties establishing the European Union"
+    ],
+    "answers": [
+      "the Treaties establishing the European Union"
+    ],
+    "squad_id": "57268b43dd62a815002e88f1"
+  },
+  {
+    "id": "s14",
+    "query": "Which is more costly, formal, or informal imperialism?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "formal"
+    ],
+    "answers": [
+      "Informal rule",
+      "Informal rule is generally less costly",
+      "formal",
+      "informal"
+    ],
+    "squad_id": "57306797396df919000960f1"
+  },
+  {
+    "id": "s15",
+    "query": "Which measure must be adopted when there is a choice between several?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "the least onerous must be adopted"
+    ],
+    "answers": [
+      "the least onerous",
+      "the least onerous must be adopted"
+    ],
+    "squad_id": "5726a09f708984140094cc3b"
+  },
+  {
+    "id": "s16",
+    "query": "Older people get less sun and produce less of what chemical via UVB radiation?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "cholecalciferol"
+    ],
+    "answers": [
+      "cholecalciferol"
+    ],
+    "squad_id": "5729fb003f37b3190047862a"
+  },
+  {
+    "id": "s17",
+    "query": "Which country did Japan force into an alliance?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "Thailand"
+    ],
+    "answers": [
+      "Thailand"
+    ],
+    "squad_id": "5730b1022461fd1900a9cfa6"
+  },
+  {
+    "id": "s18",
+    "query": "Colonies were a sign of what amongst European countries?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "prestige"
+    ],
+    "answers": [
+      "prestige"
+    ],
+    "squad_id": "5730aef38ab72b1400f9c683"
+  },
+  {
+    "id": "s19",
+    "query": "When did Great Britain colonize Australia?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "eighteenth century"
+    ],
+    "answers": [
+      "eighteenth century",
+      "eighteenth century,",
+      "the eighteenth century"
+    ],
+    "squad_id": "57308ddc396df919000961a7"
+  },
+  {
+    "id": "s20",
+    "query": "What is the highest court in the European Union?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "The European Court of Justice"
+    ],
+    "answers": [
+      "The European Court of Justice"
+    ],
+    "squad_id": "5725bbec271a42140099d0d4"
+  },
+  {
+    "id": "s21",
+    "query": "Where was Halford Mackinder born?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "Britain"
+    ],
+    "answers": [
+      "Britain"
+    ],
+    "squad_id": "573088da069b53140083216c"
+  },
+  {
+    "id": "s22",
+    "query": "The West saw themselves as what compared to the east?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "rational and progressive"
+    ],
+    "answers": [
+      "progressive",
+      "rational and progressive"
+    ],
+    "squad_id": "57308f6b8ab72b1400f9c584"
+  },
+  {
+    "id": "s23",
+    "query": "What is the metric they use to determine how busy airports are?",
+    "category": "squad",
+    "expected_sources": [
+      "Southern_California.txt"
+    ],
+    "expected_keywords": [
+      "passenger volume"
+    ],
+    "answers": [
+      "passenger volume"
+    ],
+    "squad_id": "570610b275f01819005e792b"
+  },
+  {
+    "id": "s24",
+    "query": "What UN secretary went to Harvard?",
+    "category": "squad",
+    "expected_sources": [
+      "Harvard_University.txt"
+    ],
+    "expected_keywords": [
+      "Ban Ki-moon"
+    ],
+    "answers": [
+      "Ban Ki-moon",
+      "General Ban Ki-moon"
+    ],
+    "squad_id": "5727de862ca10214002d9860"
+  },
+  {
+    "id": "s25",
+    "query": "Disruptions in sleep can lead to increase in what chronic conditions?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "heart disease, chronic pain, and asthma"
+    ],
+    "answers": [
+      "chronic pain",
+      "heart disease, chronic pain, and asthma"
+    ],
+    "squad_id": "5729fa40af94a219006aa710"
+  },
+  {
+    "id": "s26",
+    "query": "What is the name of Harvard's primary recreational sports facility?",
+    "category": "squad",
+    "expected_sources": [
+      "Harvard_University.txt"
+    ],
+    "expected_keywords": [
+      "Malkin Athletic Center"
+    ],
+    "answers": [
+      "Malkin Athletic Center"
+    ],
+    "squad_id": "5727dc473acd2414000dee44"
+  },
+  {
+    "id": "s27",
+    "query": "What US war caused a high amount of civil disobedience?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "Vietnam War"
+    ],
+    "answers": [
+      "Vietnam",
+      "Vietnam War"
+    ],
+    "squad_id": "5728fc9e1d04691400778f13"
+  },
+  {
+    "id": "s28",
+    "query": "How many general principles does the Social Charter declare?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "30"
+    ],
+    "answers": [
+      "30"
+    ],
+    "squad_id": "5726a3c6f1498d1400e8e5b1"
+  },
+  {
+    "id": "s29",
+    "query": "Who's satellites would the new free-to-air channels be broadcast from?",
+    "category": "squad",
+    "expected_sources": [
+      "Sky__United_Kingdom.txt"
+    ],
+    "expected_keywords": [
+      "Astra"
+    ],
+    "answers": [
+      "Astra",
+      "Astra's",
+      "Astra's satellites"
+    ],
+    "squad_id": "570961aa200fba1400367f16"
+  },
+  {
+    "id": "s30",
+    "query": "What kind of people attend the IPCC meetings?",
+    "category": "squad",
+    "expected_sources": [
+      "Intergovernmental_Panel_on_Climate_Change.txt"
+    ],
+    "expected_keywords": [
+      "government officials and climate change experts"
+    ],
+    "answers": [
+      "government officials and climate change experts"
+    ],
+    "squad_id": "57293c246aef051400154bba"
+  },
+  {
+    "id": "s31",
+    "query": "What do the Treaties generally limit?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "free trade"
+    ],
+    "answers": [
+      "free trade"
+    ],
+    "squad_id": "5726b58f5951b619008f7b58"
+  },
+  {
+    "id": "s32",
+    "query": "Which reason is given sometimes to plead not guilty involving these matters?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "Guilt implies wrong-doing"
+    ],
+    "answers": [
+      "Guilt implies wrong-doing",
+      "I may have violated some specific laws, but I am guilty of doing no wrong",
+      "guilty of doing no wrong"
+    ],
+    "squad_id": "5728ebcb3acd2414000e01dc"
+  },
+  {
+    "id": "s33",
+    "query": "What happens secondly if a Directive's deadline is not met?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company"
+    ],
+    "answers": [
+      "a citizen may rely on the Directive in such an action",
+      "a citizen may rely on the Directive in such an action (so called \"vertical\" direct effect)",
+      "a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company"
+    ],
+    "squad_id": "57269e3bf1498d1400e8e517"
+  },
+  {
+    "id": "s34",
+    "query": "Imperialism and colonialism both assert a states dominance over what?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "person or group of people"
+    ],
+    "answers": [
+      "a person or group of people",
+      "person or group of people"
+    ],
+    "squad_id": "573083dc2461fd1900a9ce71"
+  },
+  {
+    "id": "s35",
+    "query": "When were the talks held for braodcast right to the Primier league for a five year period from the 1992 season?",
+    "category": "squad",
+    "expected_sources": [
+      "Sky__United_Kingdom.txt"
+    ],
+    "expected_keywords": [
+      "1991"
+    ],
+    "answers": [
+      "1991",
+      "autumn of 1991"
+    ],
+    "squad_id": "57096e1ced30961900e84102"
+  },
+  {
+    "id": "s36",
+    "query": "The word imperialism has it's origins in which ancient language?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "Latin"
+    ],
+    "answers": [
+      "Latin"
+    ],
+    "squad_id": "573060b48ab72b1400f9c4c6"
+  },
+  {
+    "id": "s37",
+    "query": "What are cilia used for?",
+    "category": "squad",
+    "expected_sources": [
+      "Ctenophora.txt"
+    ],
+    "expected_keywords": [
+      "method of locomotion"
+    ],
+    "answers": [
+      "locomotion",
+      "method of locomotion",
+      "their main method of locomotion"
+    ],
+    "squad_id": "572648e8dd62a815002e8077"
+  },
+  {
+    "id": "s38",
+    "query": "Pattern recognition receptors recognize components present in broad groups of what?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "microorganisms"
+    ],
+    "answers": [
+      "microorganisms"
+    ],
+    "squad_id": "5728f9882ca10214002dab5c"
+  },
+  {
+    "id": "s39",
+    "query": "What is the CJEU's duty?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "\"ensure that in the interpretation and application of the Treaties the law is observed\""
+    ],
+    "answers": [
+      "\"ensure that in the interpretation and application of the Treaties the law is observed\"",
+      "ensure that in the interpretation and application of the Treaties the law is observed"
+    ],
+    "squad_id": "572658435951b619008f7029"
+  },
+  {
+    "id": "s40",
+    "query": "What law justified British imperialism?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "Terra nullius"
+    ],
+    "answers": [
+      "Terra nullius"
+    ],
+    "squad_id": "57308ddc396df919000961a5"
+  },
+  {
+    "id": "s41",
+    "query": "What kinds of sciences were Social Darwinism and theories of race?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "pseudo-sciences"
+    ],
+    "answers": [
+      "British Empire",
+      "pseudo",
+      "pseudo-sciences"
+    ],
+    "squad_id": "5730b6592461fd1900a9cfd0"
+  },
+  {
+    "id": "s42",
+    "query": "What probiotic flora is found in unpasteurized yogurt?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "lactobacilli"
+    ],
+    "answers": [
+      "lactobacilli"
+    ],
+    "squad_id": "5728fd206aef05140015494e"
+  },
+  {
+    "id": "s43",
+    "query": "Which organization released a California Earthquake forecast?",
+    "category": "squad",
+    "expected_sources": [
+      "Southern_California.txt"
+    ],
+    "expected_keywords": [
+      "USGS"
+    ],
+    "answers": [
+      "The USGS",
+      "USGS"
+    ],
+    "squad_id": "5705ffde52bb891400689787"
+  },
+  {
+    "id": "s44",
+    "query": "What type of vote must the Council pass in order to approve of any changes recommended by Parliament?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "qualified majority"
+    ],
+    "answers": [
+      "a majority",
+      "qualified majority"
+    ],
+    "squad_id": "572656e4dd62a815002e81fb"
+  },
+  {
+    "id": "s45",
+    "query": "What type of plea is sometimes taken as an act of disobedience?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "blind plea"
+    ],
+    "answers": [
+      "blind plea"
+    ],
+    "squad_id": "5728eef92ca10214002daab3"
+  },
+  {
+    "id": "s46",
+    "query": "Where do platycenida live?",
+    "category": "squad",
+    "expected_sources": [
+      "Ctenophora.txt"
+    ],
+    "expected_keywords": [
+      "rocks, algae, or the body surfaces of other invertebrates"
+    ],
+    "answers": [
+      "on rocks, algae, or the body surfaces of other invertebrates",
+      "rocks, algae, or the body surfaces of other invertebrates"
+    ],
+    "squad_id": "572681c1dd62a815002e8799"
+  },
+  {
+    "id": "s47",
+    "query": "Which two courts apply European Union law?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "the courts of member states and the Court of Justice of the European Union"
+    ],
+    "answers": [
+      "courts of member states and the Court of Justice of the European Union",
+      "the courts of member states and the Court of Justice of the European Union"
+    ],
+    "squad_id": "5725c3a9ec44d21400f3d503"
+  },
+  {
+    "id": "s48",
+    "query": "A forced trade agreement between two countries would be an example of what?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "\"informal\" imperialism"
+    ],
+    "answers": [
+      "\"informal\" imperialism",
+      "Informal rule",
+      "imperialism",
+      "informal\" imperialism"
+    ],
+    "squad_id": "57306797396df919000960ee"
+  },
+  {
+    "id": "s49",
+    "query": "What is the legislature of the European Union comprised of?",
+    "category": "squad",
+    "expected_sources": [
+      "European_Union_law.txt"
+    ],
+    "expected_keywords": [
+      "the European Parliament and the Council of the European Union"
+    ],
+    "answers": [
+      "European Parliament and the Council of the European Union",
+      "the European Parliament and the Council of the European Union"
+    ],
+    "squad_id": "57268b43dd62a815002e88f2"
+  },
+  {
+    "id": "s50",
+    "query": "Where did the French send a large number of settlers?",
+    "category": "squad",
+    "expected_sources": [
+      "Imperialism.txt"
+    ],
+    "expected_keywords": [
+      "Algeria"
+    ],
+    "answers": [
+      "Algeria"
+    ],
+    "squad_id": "5730a951069b531400832217"
+  },
+  {
+    "id": "s51",
+    "query": "What kind of T cells kill cells that are infected with pathogens?",
+    "category": "squad",
+    "expected_sources": [
+      "Immune_system.txt"
+    ],
+    "expected_keywords": [
+      "Killer T cells"
+    ],
+    "answers": [
+      "Killer T",
+      "Killer T cells"
+    ],
+    "squad_id": "5729f39a6aef05140015514c"
+  },
+  {
+    "id": "s52",
+    "query": "Who was famous for disobedience against a tax collector?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "Thoreau"
+    ],
+    "answers": [
+      "Thoreau"
+    ],
+    "squad_id": "5728dafe3acd2414000e005f"
+  },
+  {
+    "id": "s53",
+    "query": "Which group has two layers of cells with a middle layer of mesoglea?",
+    "category": "squad",
+    "expected_sources": [
+      "Ctenophora.txt"
+    ],
+    "expected_keywords": [
+      "sponges and cnidarians, ctenophores"
+    ],
+    "answers": [
+      "cnidarians and ctenophores",
+      "ctenophores",
+      "sponges and cnidarians, ctenophores"
+    ],
+    "squad_id": "572647d0708984140094c14d"
+  },
+  {
+    "id": "s54",
+    "query": "Brownlee argues that sometimes people behave in what way to have their issue heard?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "limited coercion"
+    ],
+    "answers": [
+      "civil disobedience",
+      "employ limited coercion",
+      "limited coercion"
+    ],
+    "squad_id": "57282dfb4b864d190016466b"
+  },
+  {
+    "id": "s55",
+    "query": "What do increased greenhouse gases cause?",
+    "category": "squad",
+    "expected_sources": [
+      "Intergovernmental_Panel_on_Climate_Change.txt"
+    ],
+    "expected_keywords": [
+      "additional warming of the Earth's surface"
+    ],
+    "answers": [
+      "additional warming of the Earth's surface",
+      "warming of the Earth's surface"
+    ],
+    "squad_id": "57293e221d046914007791d6"
+  },
+  {
+    "id": "s56",
+    "query": "How much revenue is private?",
+    "category": "squad",
+    "expected_sources": [
+      "Construction.txt"
+    ],
+    "expected_keywords": [
+      "$680 billion"
+    ],
+    "answers": [
+      "$680 billion"
+    ],
+    "squad_id": "572755b7708984140094dc4e"
+  },
+  {
+    "id": "s57",
+    "query": "What did BSkyB name their interactive service?",
+    "category": "squad",
+    "expected_sources": [
+      "Sky__United_Kingdom.txt"
+    ],
+    "expected_keywords": [
+      "Sky Active"
+    ],
+    "answers": [
+      "Open",
+      "Sky Active"
+    ],
+    "squad_id": "57097051ed30961900e84134"
+  },
+  {
+    "id": "s58",
+    "query": "In 2004 the Orange revolution occurred in what country?",
+    "category": "squad",
+    "expected_sources": [
+      "Civil_disobedience.txt"
+    ],
+    "expected_keywords": [
+      "Ukraine"
+    ],
+    "answers": [
+      "Ukraine"
+    ],
+    "squad_id": "57271c235951b619008f860e"
+  },
+  {
+    "id": "s59",
+    "query": "How did the 2001 IPCC report compare to reality on sea levels?",
+    "category": "squad",
+    "expected_sources": [
+      "Intergovernmental_Panel_on_Climate_Change.txt"
+    ],
+    "expected_keywords": [
+      "actual sea level rise was above the top of the range"
+    ],
+    "answers": [
+      "actual sea level rise was above the top of the range",
+      "the actual sea level rise was above the top of the range"
+    ],
+    "squad_id": "572945b11d04691400779232"
+  },
+  {
+    "id": "s60",
+    "query": "Other than the San Diego metropolitan area, what other area are the communities along Interstates 15 and 215 connected with?",
+    "category": "squad",
+    "expected_sources": [
+      "Southern_California.txt"
+    ],
+    "expected_keywords": [
+      "Inland Empire"
+    ],
+    "answers": [
+      "Inland Empire",
+      "Temecula and Murrieta"
+    ],
+    "squad_id": "5705fb7f52bb891400689751"
+  },
+  {
+    "id": "s61",
+    "query": "When did the English High Court of Justice find that Microsoft\u2019s use of the term \"SkyDrive\" did not infringe on Sky\u2019s right to the \"Sky\" trademark?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a2c41c8bfd06b001a5aeaa7",
+    "article": "Sky__United_Kingdom.txt"
+  },
+  {
+    "id": "s62",
+    "query": "What drugs help T cells respond to signals correctly?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad4ef8b5b96ef001a10a6bc",
+    "article": "Immune_system.txt"
+  },
+  {
+    "id": "s63",
+    "query": "What defenses respond to pathogens in a specific way?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad4a75aba00c4001a268eeb",
+    "article": "Immune_system.txt"
+  },
+  {
+    "id": "s64",
+    "query": "What three sectors of public works are there?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a25ab1bef59cd001a623c32",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s65",
+    "query": "What theory did Niels Jerne formulate?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad4f11d5b96ef001a10a702",
+    "article": "Immune_system.txt"
+  },
+  {
+    "id": "s66",
+    "query": "What does the TEU not do?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad10f94645df0001a2d0bc6",
+    "article": "European_Union_law.txt"
+  },
+  {
+    "id": "s67",
+    "query": "What was not thought to decide a person's behavior?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0301577cf76001a686db5",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s68",
+    "query": "When did Microsoft decide to appeal the ruling?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a2c41c8bfd06b001a5aeaa8",
+    "article": "Sky__United_Kingdom.txt"
+  },
+  {
+    "id": "s69",
+    "query": "What is the most important thing when deciding if a law is moral?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a66a55af038b7001ab0c07f",
+    "article": "Civil_disobedience.txt"
+  },
+  {
+    "id": "s70",
+    "query": "What did George Carlin tell the city council to do in New Hampshire?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a666b43846392001a1e1c10",
+    "article": "Civil_disobedience.txt"
+  },
+  {
+    "id": "s71",
+    "query": "How many populous counties are in the United States?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad01f0f77cf76001a686ac3",
+    "article": "Southern_California.txt"
+  },
+  {
+    "id": "s72",
+    "query": "What do mortgage bankers study regarding the project?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a25d89aef59cd001a623cf6",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s73",
+    "query": "What was the projection of sea level increases in the forth assessment report?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a3e4a34378766001a002550",
+    "article": "Intergovernmental_Panel_on_Climate_Change.txt"
+  },
+  {
+    "id": "s74",
+    "query": "How many of the six total packages available to broadcasters did Setanta give away?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a2c0c2fbfd06b001a5ae99c",
+    "article": "Sky__United_Kingdom.txt"
+  },
+  {
+    "id": "s75",
+    "query": "How many provinces did the Ottoman empire not contain in the 17th century?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad03b4677cf76001a686ea4",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s76",
+    "query": "What political scientist is one of the founders of the theory of neoliberalism?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a8257efe60761001a2eb1d3",
+    "article": "Harvard_University.txt"
+  },
+  {
+    "id": "s77",
+    "query": "What does the lawfulness of action not depend on?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad14573645df0001a2d14b1",
+    "article": "European_Union_law.txt"
+  },
+  {
+    "id": "s78",
+    "query": "What group decided to enter a blind plea without any jailtime?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a668ef8f038b7001ab0bfdd",
+    "article": "Civil_disobedience.txt"
+  },
+  {
+    "id": "s79",
+    "query": "Who do the contributing authors report to?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a3e488b378766001a00253d",
+    "article": "Intergovernmental_Panel_on_Climate_Change.txt"
+  },
+  {
+    "id": "s80",
+    "query": "Why did the UK have to justify its actions?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad15b19645df0001a2d1880",
+    "article": "European_Union_law.txt"
+  },
+  {
+    "id": "s81",
+    "query": "What city has a population of 1,307,204?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad01e4677cf76001a686aa8",
+    "article": "Southern_California.txt"
+  },
+  {
+    "id": "s82",
+    "query": "What did the Court of Justice say that Mr. Steymann was not entitled to do?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad15676645df0001a2d17fa",
+    "article": "European_Union_law.txt"
+  },
+  {
+    "id": "s83",
+    "query": "What did Harvey Wheeler direct the Hungarians to do?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a665870846392001a1e1af7",
+    "article": "Civil_disobedience.txt"
+  },
+  {
+    "id": "s84",
+    "query": "When will enhanced greenhouse effect reach alarming levels?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a3e3405378766001a0024e5",
+    "article": "Intergovernmental_Panel_on_Climate_Change.txt"
+  },
+  {
+    "id": "s85",
+    "query": "How is admission to the Early Action program characterized?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a82294a31013a001a335271",
+    "article": "Harvard_University.txt"
+  },
+  {
+    "id": "s86",
+    "query": "What kind of area do the genus Beroe juveniles live in that's different than their parents?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a838f74e60761001a2eb7d3",
+    "article": "Ctenophora.txt"
+  },
+  {
+    "id": "s87",
+    "query": "What is the lowest court in the European Union?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad10e0f645df0001a2d0b75",
+    "article": "European_Union_law.txt"
+  },
+  {
+    "id": "s88",
+    "query": "What is Cultural Imperialism never referred to as?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad02d3077cf76001a686cf7",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s89",
+    "query": "Hobson argued that imperialism wasn't an international what?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad02fda77cf76001a686d91",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s90",
+    "query": "How many people never registered to receive the HD service prior to launch?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a2c30dabfd06b001a5aea2b",
+    "article": "Sky__United_Kingdom.txt"
+  },
+  {
+    "id": "s91",
+    "query": "What desert is to the south near Nevada?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad01c8877cf76001a686a65",
+    "article": "Southern_California.txt"
+  },
+  {
+    "id": "s92",
+    "query": "Who normally manages the environmental impact of the job?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a25a8e9ef59cd001a623c21",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s93",
+    "query": "What lies at 37\u00b0 8' 59.23\" latitude?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0297e77cf76001a686c3a",
+    "article": "Southern_California.txt"
+  },
+  {
+    "id": "s94",
+    "query": "When was the last Sino-Japanese War?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0388377cf76001a686e40",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s95",
+    "query": "What did denial of service attacks make it harder for The Plowshares organization to do?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a6681d1f038b7001ab0bf00",
+    "article": "Civil_disobedience.txt"
+  },
+  {
+    "id": "s96",
+    "query": "Who did not charter the British East India Company?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0316177cf76001a686ddc",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s97",
+    "query": "What metaphors explained global warming?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a3e5014378766001a002578",
+    "article": "Intergovernmental_Panel_on_Climate_Change.txt"
+  },
+  {
+    "id": "s98",
+    "query": "Who was the former host of Late Night with Conan O'Brien?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a8251c231013a001a3353ef",
+    "article": "Harvard_University.txt"
+  },
+  {
+    "id": "s99",
+    "query": "Who convenes at the American Council?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad1373b645df0001a2d11cd",
+    "article": "European_Union_law.txt"
+  },
+  {
+    "id": "s100",
+    "query": "What do bacterial surface proteins not bind to?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad4f7895b96ef001a10a7f4",
+    "article": "Immune_system.txt"
+  },
+  {
+    "id": "s101",
+    "query": "How much has been written about the subject of grammar?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a6647d2c2b11c001a425f20",
+    "article": "Civil_disobedience.txt"
+  },
+  {
+    "id": "s102",
+    "query": "What are buildings, stuctures and industrial?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a2352f782b03a001a4aa77b",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s103",
+    "query": "In what kind of chamber do species in the genus Ocryopsis keep their eggs until they hatch?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a838db9e60761001a2eb7ba",
+    "article": "Ctenophora.txt"
+  },
+  {
+    "id": "s104",
+    "query": "What event did Cornell win in 2003?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a82432131013a001a33536e",
+    "article": "Harvard_University.txt"
+  },
+  {
+    "id": "s105",
+    "query": "What newly legalized move did Harvard's football team support in 1920?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a823e6f31013a001a335331",
+    "article": "Harvard_University.txt"
+  },
+  {
+    "id": "s106",
+    "query": "What is an obvious source for cost engineers?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a25d89aef59cd001a623cfa",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s107",
+    "query": "What is a trade magazine for design industry?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a23548782b03a001a4aa783",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s108",
+    "query": "What channel never used looping video streams?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a2c382dbfd06b001a5aea73",
+    "article": "Sky__United_Kingdom.txt"
+  },
+  {
+    "id": "s109",
+    "query": "What shape are tentilla typically?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a837549e60761001a2eb73a",
+    "article": "Ctenophora.txt"
+  },
+  {
+    "id": "s110",
+    "query": "What was a similar view about the Asian continent not called?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0312677cf76001a686dcb",
+    "article": "Imperialism.txt"
+  },
+  {
+    "id": "s111",
+    "query": "What period did the emergence of feeding mechanisms come from?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a83a59be60761001a2eb84c",
+    "article": "Ctenophora.txt"
+  },
+  {
+    "id": "s112",
+    "query": "How many reconstructions covered more than 10,000 years?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a3e582e378766001a0025a3",
+    "article": "Intergovernmental_Panel_on_Climate_Change.txt"
+  },
+  {
+    "id": "s113",
+    "query": "What repels immune cells?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad4c6775b96ef001a10a014",
+    "article": "Immune_system.txt"
+  },
+  {
+    "id": "s114",
+    "query": "What effect do technologies and resources generate?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a25bb0bef59cd001a623cb5",
+    "article": "Construction.txt"
+  },
+  {
+    "id": "s115",
+    "query": "What additional business districts are in downtown Los Angeles itself?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0470477cf76001a686f82",
+    "article": "Southern_California.txt"
+  },
+  {
+    "id": "s116",
+    "query": "What do Bathyctena chuni, Euplokamis stationis and Euhamphaea veilligera produce only when they change color?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a8391c7e60761001a2eb7d9",
+    "article": "Ctenophora.txt"
+  },
+  {
+    "id": "s117",
+    "query": "Who are Rob Curran and Tim Machado?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad0220a77cf76001a686b2b",
+    "article": "Southern_California.txt"
+  },
+  {
+    "id": "s118",
+    "query": "What college was founded during World War II?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a8209f831013a001a335132",
+    "article": "Harvard_University.txt"
+  },
+  {
+    "id": "s119",
+    "query": "What did the IPCC complain was happening from government oversight?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5a3e539a378766001a00258e",
+    "article": "Intergovernmental_Panel_on_Climate_Change.txt"
+  },
+  {
+    "id": "s120",
+    "query": "Who was the governor of California in 1895?",
+    "category": "out_of_scope",
+    "oos_type": "near",
+    "expected_sources": [],
+    "expected_keywords": [],
+    "squad_id": "5ad02e5d77cf76001a686d3c",
+    "article": "Southern_California.txt"
+  }
+]

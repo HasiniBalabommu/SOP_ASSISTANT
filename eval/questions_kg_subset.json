@@ -1,0 +1,84 @@
+[
+ {
+  "id": "q1",
+  "query": "What should I do if I see error code E205?",
+  "category": "fault_code",
+  "expected_sources": [
+   "generator_b_manual.txt"
+  ],
+  "expected_keywords": [
+   "shut down",
+   "coolant",
+   "radiator fan"
+  ]
+ },
+ {
+  "id": "q2",
+  "query": "What are the root causes of the E205 overheating alarm?",
+  "category": "fault_code",
+  "expected_sources": [
+   "generator_b_manual.txt"
+  ],
+  "expected_keywords": [
+   "coolant",
+   "fan motor",
+   "radiator fins",
+   "sensor"
+  ]
+ },
+ {
+  "id": "q4",
+  "query": "What does fault code E204 mean on Generator B?",
+  "category": "fault_code",
+  "expected_sources": [
+   "generator_b_manual.txt"
+  ],
+  "expected_keywords": [
+   "low oil pressure",
+   "shut down",
+   "oil level"
+  ]
+ },
+ {
+  "id": "q5",
+  "query": "What does the E210 fault code indicate?",
+  "category": "fault_code",
+  "expected_sources": [
+   "generator_b_manual.txt"
+  ],
+  "expected_keywords": [
+   "battery voltage",
+   "cranking"
+  ]
+ },
+ {
+  "id": "q6",
+  "query": "Is the E205 overheating threshold adjustable in the field?",
+  "category": "fault_code",
+  "expected_sources": [
+   "generator_b_manual.txt"
+  ],
+  "expected_keywords": [
+   "not field-adjustable",
+   "firmware"
+  ]
+ },
+ {
+  "id": "q49",
+  "query": "At what oil pressure in psi does the E204 alarm trigger?",
+  "category": "out_of_scope",
+  "oos_type": "near",
+  "expected_sources": [],
+  "expected_keywords": [],
+  "note": "generator: no pressure value given"
+ },
+ {
+  "id": "q50",
+  "query": "At what battery voltage does the E210 alarm trigger?",
+  "category": "out_of_scope",
+  "oos_type": "near",
+  "expected_sources": [],
+  "expected_keywords": [],
+  "note": "generator: no threshold given (24V is the system voltage)"
+ }
+]

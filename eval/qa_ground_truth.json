@@ -1,0 +1,289 @@
+[
+  {
+    "id": "q1",
+    "query": "What should I do if I see error code E205?",
+    "category": "fault_code",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["shut down", "coolant", "radiator fan"]
+  },
+  {
+    "id": "q2",
+    "query": "What are the root causes of the E205 overheating alarm?",
+    "category": "fault_code",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["coolant", "fan motor", "radiator fins", "sensor"]
+  },
+  {
+    "id": "q3",
+    "query": "At what temperature does Generator B trigger an overheating alarm?",
+    "category": "fault_code",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["105", "coolant temperature"]
+  },
+  {
+    "id": "q4",
+    "query": "What does fault code E204 mean on Generator B?",
+    "category": "fault_code",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["low oil pressure", "shut down", "oil level"]
+  },
+  {
+    "id": "q5",
+    "query": "What does the E210 fault code indicate?",
+    "category": "fault_code",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["battery voltage", "cranking"]
+  },
+  {
+    "id": "q6",
+    "query": "Is the E205 overheating threshold adjustable in the field?",
+    "category": "fault_code",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["not field-adjustable", "firmware"]
+  },
+  {
+    "id": "q7",
+    "query": "What weekly checks should be done on Generator B?",
+    "category": "maintenance",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["oil level", "electrical connections", "transfer switch"]
+  },
+  {
+    "id": "q8",
+    "query": "What maintenance tasks are performed monthly on Generator B?",
+    "category": "maintenance",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["battery", "load", "radiator fins", "belt"]
+  },
+  {
+    "id": "q9",
+    "query": "What is included in the annual service for Generator B?",
+    "category": "maintenance",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["oil filter", "coolant", "load-bank test"]
+  },
+  {
+    "id": "q10",
+    "query": "What is the rated power output of Generator B?",
+    "category": "specification",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["500 kW", "625 kVA"]
+  },
+  {
+    "id": "q11",
+    "query": "What is the oil capacity and starting system voltage for Generator B?",
+    "category": "specification",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["38 L", "24V"]
+  },
+  {
+    "id": "q12",
+    "query": "What safety precaution should be followed before working on the cooling system?",
+    "category": "safety",
+    "expected_sources": ["generator_b_manual.txt"],
+    "expected_keywords": ["shut down", "cool", "burns"]
+  },
+  {
+    "id": "q13",
+    "query": "What are the benefits of using functions in algorithmic problem solving?",
+    "category": "course_material",
+    "expected_sources": ["1.PDF"],
+    "expected_keywords": ["reduction in line of code", "code reuse", "readability"]
+  },
+  {
+    "id": "q14",
+    "query": "What is the difference between an algorithm and a flowchart?",
+    "category": "course_material",
+    "expected_sources": ["1.PDF"],
+    "expected_keywords": ["sequence of instructions", "graphical representation"]
+  },
+  {
+    "id": "q15",
+    "query": "What keyword is used to represent a comment in pseudocode?",
+    "category": "course_material",
+    "expected_sources": ["1.PDF"],
+    "expected_keywords": ["//"]
+  },
+  {
+    "id": "q16",
+    "query": "What is the difference between interactive mode and script mode in Python?",
+    "category": "course_material",
+    "expected_sources": ["LISTS.pdf", "2.pdf"],
+    "expected_keywords": ["interactive mode", "script mode", ".py"]
+  },
+  {
+    "id": "q17",
+    "query": "What numeric data types does Python support?",
+    "category": "course_material",
+    "expected_sources": ["LISTS.pdf", "2.pdf"],
+    "expected_keywords": ["integers", "floating point", "complex"]
+  },
+  {
+    "id": "q18",
+    "query": "How is a list written in Python?",
+    "category": "course_material",
+    "expected_sources": ["LISTS.pdf", "2.pdf"],
+    "expected_keywords": ["square brackets", "comma-separated"]
+  },
+  {
+    "id": "q19",
+    "query": "What does the += operator do in Python?",
+    "category": "course_material",
+    "expected_sources": ["3.pdf"],
+    "expected_keywords": ["adds", "right operand", "left operand"]
+  },
+  {
+    "id": "q20",
+    "query": "What is a chained conditional in Python?",
+    "category": "course_material",
+    "expected_sources": ["3.pdf"],
+    "expected_keywords": ["if", "elif", "else"]
+  },
+  {
+    "id": "q21",
+    "query": "What are membership operators used for in Python?",
+    "category": "course_material",
+    "expected_sources": ["3.pdf"],
+    "expected_keywords": ["sequence", "list", "tuple", "dictionary"]
+  },
+  {
+    "id": "q22",
+    "query": "What does the list pop() method do in Python?",
+    "category": "course_material",
+    "expected_sources": ["4.pdf"],
+    "expected_keywords": ["removes", "returns", "last element"]
+  },
+  {
+    "id": "q23",
+    "query": "What is aliasing in Python lists?",
+    "category": "course_material",
+    "expected_sources": ["4.pdf"],
+    "expected_keywords": ["copy", "same memory location"]
+  },
+  {
+    "id": "q24",
+    "query": "How do you clone a list using slicing in Python?",
+    "category": "course_material",
+    "expected_sources": ["4.pdf"],
+    "expected_keywords": ["slicing", "a[:]"]
+  },
+  {
+    "id": "q25",
+    "query": "What does sys.argv[0] represent in a Python script?",
+    "category": "course_material",
+    "expected_sources": ["5.pdf"],
+    "expected_keywords": ["file name"]
+  },
+  {
+    "id": "q26",
+    "query": "Which Python exception is raised when dividing by zero?",
+    "category": "course_material",
+    "expected_sources": ["5.pdf"],
+    "expected_keywords": ["ZeroDivisionError"]
+  },
+  {
+    "id": "q27",
+    "query": "What causes a syntax error in a Python program?",
+    "category": "course_material",
+    "expected_sources": ["5.pdf"],
+    "expected_keywords": ["keyword", "symbol", "indentation"]
+  },
+  {
+    "id": "q28",
+    "query": "What is Responsible AI?",
+    "category": "ai_concepts",
+    "expected_sources": ["AI COURSE.docx"],
+    "expected_keywords": ["ethically", "benefitting", "avoiding harm"]
+  },
+  {
+    "id": "q29",
+    "query": "What is chain-of-thought prompting?",
+    "category": "ai_concepts",
+    "expected_sources": ["AI COURSE.docx"],
+    "expected_keywords": ["reasoning", "step-by-step"]
+  },
+  {
+    "id": "q30",
+    "query": "What is representational harm in the context of AI?",
+    "category": "ai_concepts",
+    "expected_sources": ["AI COURSE.docx"],
+    "expected_keywords": ["subordination", "social groups", "identity"]
+  },
+  {
+    "id": "q31",
+    "query": "What encryption standard does Google use to encrypt data by default?",
+    "category": "cloud_computing",
+    "expected_sources": ["CLOUD COMPUTING.pdf"],
+    "expected_keywords": ["AES 128"]
+  },
+  {
+    "id": "q32",
+    "query": "What role does Cloud Pub/Sub play in a data processing pipeline?",
+    "category": "cloud_computing",
+    "expected_sources": ["CLOUD COMPUTING.pdf"],
+    "expected_keywords": ["publish", "subscribe", "buffer"]
+  },
+  {
+    "id": "q33",
+    "query": "What is a VPC network in Google Cloud?",
+    "category": "cloud_computing",
+    "expected_sources": ["CLOUD COMPUTING.pdf"],
+    "expected_keywords": ["virtual", "global resource"]
+  },
+  {
+    "id": "q34",
+    "query": "What is the maintenance schedule for a commercial jet engine?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q35",
+    "query": "How do I reset the firmware on a Cisco router?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q36",
+    "query": "What is the recommended tire pressure for a Toyota Hilux?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q37",
+    "query": "What is the boiling point of ethanol at sea level?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q38",
+    "query": "How do I file a warranty claim for a Samsung refrigerator?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q39",
+    "query": "What is the standard dosage of paracetamol for an adult?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q40",
+    "query": "What is the capital city of Australia?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q41",
+    "query": "How do I calculate compound interest on a savings account?",
+    "category": "out_of_scope",
+    "expected_sources": [],
+    "expected_keywords": []
+  }
+]

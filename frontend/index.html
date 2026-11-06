@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industrial Knowledge Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ===== Sidebar ===== -->
+<aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">IKA</span>
+      <span class="brand-name">Industrial Knowledge<br>Assistant</span>
+    </div>
+
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="chats">Chats</button>
+      <button class="tab-btn" data-tab="knowledge">Knowledge</button>
+    </div>
+
+    <!-- ===== CHATS TAB ===== -->
+    <div class="tab-panel active" id="tab-chats">
+      <button class="new-chat-btn" id="newChatBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+        New Chat
+      </button>
+      <div class="chat-list" id="chatList">
+        <p class="panel-hint">No past chats yet.</p>
+      </div>
+    </div>
+
+    <!-- ===== KNOWLEDGE TAB ===== -->
+    <div class="tab-panel" id="tab-knowledge">
+      <section class="panel">
+        <h2 class="panel-title">Upload documents</h2>
+        <p class="panel-hint">Drop manuals, SOPs, or troubleshooting guides. Indexed automatically — no manual steps.</p>
+        <label class="dropzone" id="dropzone" for="fileInput">
+          <svg class="dropzone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 4v12m0-12l-4 4m4-4l4 4M4 17v2a1 1 0 001 1h14a1 1 0 001-1v-2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span id="dropzoneText">Click or drop a file here</span>
+          <input type="file" id="fileInput" hidden accept=".pdf,.docx,.txt">
+        </label>
+        <ul class="upload-log" id="uploadLog"></ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title-row">
+          <h2 class="panel-title">Knowledge graph</h2>
+          <button class="ghost-btn" id="refreshKg" title="Refresh">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v5h5M20 20v-5h-5M4.5 9a8 8 0 0114.9-3M19.5 15a8 8 0 01-14.9 3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+        <div class="kg-stats" id="kgStats">
+          <div class="stat"><span class="stat-value" id="statNodes">–</span><span class="stat-label">nodes</span></div>
+          <div class="stat"><span class="stat-value" id="statEdges">–</span><span class="stat-label">edges</span></div>
+        </div>
+        <div class="kg-tags">
+          <div class="tag-group">
+            <span class="tag-group-label">Machines</span>
+            <div class="tag-list" id="machineTags">—</div>
+          </div>
+          <div class="tag-group">
+            <span class="tag-group-label">Fault codes</span>
+            <div class="tag-list" id="faultTags">—</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="status-row">
+      <span class="status-dot" id="apiStatusDot"></span>
+      <span id="apiStatusText">Connecting to API…</span>
+    </div>
+  </aside>
+
+  <!-- ===== Main chat panel ===== -->
+  <main class="main">
+    <div class="messages" id="messages">
+      <div class="empty-state" id="emptyState">
+        <p class="empty-title">Ask about your equipment</p>
+        <p class="empty-hint">e.g. "What should I do if I see error code E205?"</p>
+      </div>
+    </div>
+    <div class="file-preview-row" id="filePreviewRow"></div>
+
+    <form class="composer" id="composer">
+      <button type="button" class="composer-attach" id="composerAttachBtn" title="Attach a document">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21.44 11.05l-9.19 9.19a5 5 0 01-7.07-7.07l9.19-9.19a3.5 3.5 0 014.95 4.95l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <input type="file" id="composerFileInput" hidden accept=".pdf,.docx,.txt">
+      <input
+        type="text"
+        id="queryInput"
+        class="composer-input"
+        placeholder="Ask a question about your equipment…"
+        autocomplete="off"
+      >
+      <button type="submit" class="composer-send" id="sendBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </form>
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
